@@ -157,13 +157,13 @@
    (point-surface-state burned)
    (not (repair ?))
    =>
-   (assert (repair "Replace the points.")))
+   (assert (repair "Replace the plugs.")))
 
 (defrule point-surface-state-contaminated ""
    (point-surface-state contaminated)
    (not (repair ?))
    =>
-   (assert (repair "Clean the points.")))
+   (assert (repair "Clean the plugs.")))
 
 (defrule conductivity-test-positive-yes ""
    (conductivity-test-positive yes)
